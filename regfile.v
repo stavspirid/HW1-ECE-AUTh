@@ -14,7 +14,7 @@ module regfile #(parameter DATAWIDTH = 32)
   initial begin
     for (i = 0; i < DATAWIDTH; i = i + 1) begin
       registers[i] = 32'b0;
-	end
+    end
   end
   
   always @(posedge clk) begin

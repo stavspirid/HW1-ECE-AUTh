@@ -1,4 +1,3 @@
-`timescale 10 ns/1 ns
 `include "alu.v"
 `include "calc_enc.v"
 
